@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
           <div className="col-md-1 col-md-2 mb-3">
             <p>Copyright Binar 2022</p>
             <div className="d-flex flex-column flex-sm-row">
-              <a href="index.html">
+              <a href="/">
                 <img
                   src="https://res.cloudinary.com/dmuuypm2t/image/upload/v1710400256/logo_g0diue.png"
                   alt=""
