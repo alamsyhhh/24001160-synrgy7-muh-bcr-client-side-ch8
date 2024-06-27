@@ -25,9 +25,9 @@ export const filterCars = (
 
     const matchesDriverType = !driverType || car.driverType === driverType;
 
-    console.log(
-      `Filtering car: ${car.id}, Available At: ${car.availableAt}, Matches Date: ${matchesDate}, Matches Time: ${matchesTime}, Matches Passengers: ${matchesPassengers}, Matches Driver Type: ${matchesDriverType}`
-    );
+    // console.log(
+    //   `Filtering car: ${car.id}, Available At: ${car.availableAt}, Matches Date: ${matchesDate}, Matches Time: ${matchesTime}, Matches Passengers: ${matchesPassengers}, Matches Driver Type: ${matchesDriverType}`
+    // );
 
     return matchesDate && matchesTime && matchesPassengers && matchesDriverType;
   });

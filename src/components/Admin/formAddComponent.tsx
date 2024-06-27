@@ -63,8 +63,8 @@ const FormAddComponent: React.FC<FormAddComponentProps> = ({ carData }) => {
         ? format(finishRent, 'HH:mm', { timeZone })
         : '';
 
-      console.log(carData);
-      console.log(carData.createdAt);
+      // console.log(carData);
+      // console.log(carData.createdAt);
 
       setFormState({
         name: carData.name,

@@ -7,7 +7,7 @@ const getAuthConfig = () => {
   const token = localStorage.getItem('token');
 
   if (!token) {
-    console.error('Token not found in local storage');
+    // console.error('Token not found in local storage');
     throw new Error('Token not found in local storage');
   }
 

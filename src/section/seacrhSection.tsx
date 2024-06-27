@@ -48,7 +48,7 @@ const SearchSection: React.FC = () => {
       passengerCount,
       driverType
     );
-    console.log('Filtered Results:', filteredResults);
+    // console.log('Filtered Results:', filteredResults);
     setFilteredCars(filteredResults);
   };
 

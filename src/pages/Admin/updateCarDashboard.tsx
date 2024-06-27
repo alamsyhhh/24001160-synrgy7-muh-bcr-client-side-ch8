@@ -29,7 +29,7 @@ const UpdateCarPage: React.FC = () => {
           setLoading(false);
         })
         .catch((error) => {
-          console.error('Error fetching car data:', error);
+          // console.error('Error fetching car data:', error);
           setLoading(false);
         });
     }

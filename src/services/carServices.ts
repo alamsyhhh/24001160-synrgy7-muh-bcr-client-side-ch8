@@ -68,7 +68,7 @@ export const getCarById = async (id: string) => {
     const config = getAuthConfig();
     const response = await axios.get(`${URL}/${id}`, config);
     return response.data;
-    console.log(response.data);
+    // console.log(response.data);
   } catch (error) {
     throw new Error('Failed to fetch car data by ID');
   }

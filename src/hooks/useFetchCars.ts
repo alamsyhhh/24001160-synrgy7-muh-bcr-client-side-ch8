@@ -23,8 +23,8 @@ const useFetchCars = (): [Car[], boolean] => {
             availableDate.getTime() + 7 * 60 * 60 * 1000
           );
 
-          console.log('UTC Time:', availableDate.toISOString());
-          console.log('WIB Time:', wibDate.toISOString());
+          // console.log('UTC Time:', availableDate.toISOString());
+          // console.log('WIB Time:', wibDate.toISOString());
 
           return {
             ...car,
