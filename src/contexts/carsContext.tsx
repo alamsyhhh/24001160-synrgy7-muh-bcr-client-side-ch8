@@ -65,10 +65,10 @@ export const CarsProvider: React.FC<{ children: React.ReactNode }> = ({
           )
         ); // Filter based on showDeleted flag
       } else {
-        // console.error(
-        //   'Data received from server is not in the expected format:',
-        //   carsData
-        // );
+        console.error(
+          'Data received from server is not in the expected format:',
+          carsData
+        );
         setError('Invalid data received from server');
       }
       setLoading(false);
@@ -102,12 +102,12 @@ export const CarsProvider: React.FC<{ children: React.ReactNode }> = ({
               filteredCarsData.data.cars.filter((car: Car) =>
                 showDeleted ? car.deletedBy !== null : !car.deletedBy
               )
-            ); // Filter based on showDeleted flag
+            );
           } else {
-            // console.error(
-            //   'Data received from server is not in the expected format:',
-            //   filteredCarsData
-            // );
+            console.error(
+              'Data received from server is not in the expected format:',
+              filteredCarsData
+            );
             setError('Invalid data received from server');
           }
         }
@@ -133,10 +133,10 @@ export const CarsProvider: React.FC<{ children: React.ReactNode }> = ({
             )
           ); // Filter based on showDeleted flag
         } else {
-          // console.error(
-          //   'Data received from server is not in the expected format:',
-          //   filteredCarsData
-          // );
+          console.error(
+            'Data received from server is not in the expected format:',
+            filteredCarsData
+          );
           setError('Invalid data received from server');
         }
       } catch (error) {
