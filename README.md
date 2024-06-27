@@ -28,3 +28,26 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+### Link Github BE
+https://github.com/alamsyhhh/24001160-synrgy7-muh-bcr-server-side-ch8
+### Link Github FE
+https://github.com/alamsyhhh/24001160-synrgy7-muh-bcr-client-side-ch8
+
+### Deploy BE
+https://diverse-corey-alamsyhh-project-bcf73f0c.koyeb.app
+### Deploy FE
+https://24001160-synrgy7-muh-bcr-client-side-ch8.vercel.app/
+
+## Authorization
+* super admin\
+  `email` : sAdmin@gmail.com\
+  `password`: sadmin12345
+  
+* admin\
+  `email`: admin@gmail.com\
+  `password`: admin12345
+
+* member\
+  `email`: member@gmail.com\
+  `password`: member12345
